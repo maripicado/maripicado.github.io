@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mariana's Portfolio-About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+</script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+   <script src="js/vanta.r134.min.js"></script>
+<script src="js/vanta.net.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-circle-progress/dist/circle-progress.min.js" type="module"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="../">Home</a></li>
+        <li><a class="active" href="#">About</a></li>
+        <li><a href="../gallery">Gallery</a></li>
+        <li><a href="../contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="backg" class="jumbotron mainbox titleabout" >
+  <div   class="container text-center">
+    <h1>Skills</h1>      
+  </div>
+</div>
+  
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-3 col-sm-6">
+<circle-progress class="circle-progress-js" value="70" max="100" ></circle-progress>
+<span><b>Javascript</b></span>
+</div>
+<div class="col-lg-3 col-sm-6">
+<circle-progress class="circle-progress-react" value="40" max="100"></circle-progress>
+<span><b>React</b></span>
+</div>
+<div class="col-lg-3 col-sm-6">
+<circle-progress class="circle-progress-python" value="60" max="100"></circle-progress>
+<span><b>Python</b></span>
+</div>
+<div class="col-lg-3 col-sm-6">
+<circle-progress class="circle-progress-html" value="90" max="100"></circle-progress>
+<span><b>HTML</b></span>
+</div>
+<div class="col-lg-3 col-sm-6">
+<circle-progress class="circle-progress-css" value="65" max="100"></circle-progress>
+<span><b>CSS</b></span>
+</div>
+</div>
+</div>
+
+<footer class="container-fluid text-center footerstyle">
+  <p>All rights reserved - 2023</p>
+</footer>
+ <script>
+VANTA.NET({
+  el: "#backg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x30d5e8,
+  points: 11.00
+})
+</script>
+</body>
+</html>

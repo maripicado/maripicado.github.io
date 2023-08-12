@@ -1,0 +1,68 @@
+h1{
+	color:white;
+}
+body{
+	background-color:#101010;
+	color:white;
+}
+.mainbox{
+	background-color:black;
+		color:rgba(255,255,255,0.8);
+}
+.mainbox:hover{
+		color:rgba(255,255,255,1);
+}
+
+.project:hover{
+ background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    #f35 0%,
+    #43e 100%
+  );
+  /*radial-gradient(0,50,#00000000 10px, #000000ee 350px)*/
+}
+.containers{
+  /*background-color:rgba(0,0,0,0.8);*/
+}
+
+
+.circle-progress-js::part(value){
+	stroke: hsla(37, 100%, 50%, 1) !important;
+}
+
+.circle-progress-react::part(value){
+	stroke: hsla(176, 100%, 50%, 1) !important;
+}
+.circle-progress-python::part(value){
+	stroke: hsla(207, 100%, 50%, 1) !important;
+}
+.circle-progress-css::part(value){
+	stroke: hsla(300, 100%, 50%, 1) !important;
+}
+.circle-progress-html::part(value){
+	stroke: hsla(133, 100%, 50%, 1) !important;
+}
+.titleabout{
+	color:white;
+	background-color:black;
+}
+.socialmedia img:hover{
+	width:98px;
+	height:98px;
+	 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.socialmedia img:active{
+	width:93px;
+	height:93px;
+}
+.socialmedia h3{
+	color:white;
+}
+
+
+.footerstyle{
+	background-color:black;
+	color:white;
+}
+
